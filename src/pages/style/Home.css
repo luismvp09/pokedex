@@ -1,0 +1,12 @@
+.home{
+   margin: 150px;
+   padding: 150px;
+}
+.logo__img{
+    width: 800px;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%);
+}
+

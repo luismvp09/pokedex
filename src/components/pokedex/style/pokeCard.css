@@ -1,0 +1,80 @@
+
+.poke-card{
+    width: 100%;
+    max-width: 330px;
+    border-radius: 0.8em;
+    border: 0.4em solid #87aa3b;
+}
+.poke-card__header{
+    background-color: #aaa;
+    height: 140px;
+    position: relative;
+}
+.poke-card__sprite{
+    width: 50%;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.poke-card__body{
+    padding-top: 2.6em;
+}
+.poke-card__name{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.poke-card__types-container{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+.poke-card__type{
+    position: relative;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+}
+.poke-card__type:nth-child(2)::before{
+       content: '/';
+       position: absolute;
+       left: -11px;
+}
+.poke-card__footer{
+    padding: 1em 0.8em 2em;
+}
+.poke-card__stats-container{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   justify-content: center;
+   gap: 25px 5px;
+}
+.poke-card__stats{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4em;
+}
+.poke-card__label{
+    text-transform: uppercase;
+    opacity: 0.7;
+    font-weight: 200;
+    font-size: 0.8rem;
+}
+.bg-grass{
+    background-image: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
+}
+.bg-fire{
+    background-image: linear-gradient(176.37deg, #F96D6F -32.26%, #E35825 22.55%, #E8AE1B 125.72%);
+}
+.bg-bug{
+    background-image:linear-gradient(177.56deg, #62DB60 -58.92%, #3BB039 16.57%, #AAFFA8 209.53%);
+}
+.border-grass{
+    border-color:#b1dbbc ;
+}
+.color-grass{
+    color: #416460;
+}
